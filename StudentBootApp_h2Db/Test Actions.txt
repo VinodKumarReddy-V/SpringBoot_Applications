@@ -1,0 +1,21 @@
+
+Test actions:  To test applications via postman 
+-----------------------------------------------
+localhost:8087/saveStudent
+
+{
+	"rollNumber":112,
+	"name":"Vinu",
+	"qualification":"MCA"
+}
+
+localhost:8085/getAllStudentDetails
+
+
+localhost:8087/delete/123
+
+
+
+h2-db --==>
+-----------------
+http://localhost:8087/h2-console
